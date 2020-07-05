@@ -1,0 +1,9 @@
+var headID = document.getElementsByTagName("head")[0];         
+
+var newScript = document.createElement('script');
+
+newScript.type = 'text/javascript';
+
+newScript.src = 'https://static.runoob.com/assets/jquery/2.0.3/jquery.min.js';
+
+headID.appendChild(newScript);
