@@ -1,0 +1,34 @@
+
+(function () {
+    var items = [];
+    $(".Subject-Description").each(function (i, v) {
+        items.push($(v).attr('itemid'));
+    });
+    items.forEach(function (v) {
+        $("[itemid='" + v + "'] li").get(0).click();
+    });
+    $("#submitBtn").click();
+})();
+
+(function () {
+    var items = [];
+    $(".Subject-Description").each(function (i, v) {
+        items.push({ itemid: $(v).attr('itemid'), val: $(v).find(".Teacher-Answer span").text() });
+    });
+    console.log(JSON.stringify(items))
+})()
+
+(function () {
+        var data = [{ "itemid": "48d3fadc-a6e7-4ca5-bd32-d9d7a2dcdda0", "val": "D" }, { "itemid": "7220c9b3-a0b7-4ec0-a7f9-ad10cc44b93b", "val": "C" }, { "itemid": "daa65377-6c37-4c65-bd6b-1005b12f4e85", "val": "C" }, { "itemid": "ef7a4030-e9e6-4c70-88d6-e23cfc2d8df8", "val": "C" }, { "itemid": "922c9b32-b6b7-497c-89ab-e13c3a43ebab", "val": "A" }, { "itemid": "918a5994-975d-457b-a4dd-5476803ca271", "val": "B" }, { "itemid": "ff4ff5b4-2455-4f08-8faf-16822b999930", "val": "D" }, { "itemid": "f5c4f2fb-2740-4479-b897-a4c33ea0bc19", "val": "A" }, { "itemid": "f2c4dfde-d3d2-42ea-ba5b-8b58b11ff4e7", "val": "B" }, { "itemid": "dd771fba-8299-4c9c-b5e6-d5f8bf66e33f", "val": "D" }, { "itemid": "9f7187ee-6786-4a34-be1b-9d279306abb4", "val": "B" }, { "itemid": "bdee1db2-adef-4540-93bb-cea4666ceac7", "val": "A" }, { "itemid": "f460fc5c-ae55-43d8-9d00-35421bb29097", "val": "C" }, { "itemid": "29b7c2d8-3371-47b4-9cc0-fc44ea6dd3f9", "val": "B" }, { "itemid": "e7699699-8702-4df8-9a08-67e350b87639", "val": "D" }, { "itemid": "6f1ddfee-dcf3-4383-a1a9-4b27a511883d", "val": "B" }, { "itemid": "3b4d1238-d9fb-4783-a109-575528133d1f", "val": "D" }, { "itemid": "da0b5024-9f22-420e-a377-439544d6fad7", "val": "D" }, { "itemid": "e84b50eb-b6d3-4084-be49-01027d685b0b", "val": "D" }, { "itemid": "cf40f3d5-38ee-422c-9934-60d5121dba06", "val": "A" }, { "itemid": "7e6de0cd-0cb2-4a35-bc2e-0ea4db565dd5", "val": "B" }, { "itemid": "ac2859ca-1a3c-4207-b061-463393e7c392", "val": "B" }, { "itemid": "e6318bdd-28fb-4131-8a5f-6346bf648992", "val": "B" }, { "itemid": "55dbb6b1-1e61-4ea7-8df3-cd77a148393f", "val": "B" }, { "itemid": "1228c523-adfc-43bd-ba8c-58455a58f375", "val": "B" }, { "itemid": "f6df47df-4e4f-48bd-b928-2931da81618b", "val": "B" }, { "itemid": "6e665f51-ffe0-4cd8-a8cc-547571925b0a", "val": "B" }, { "itemid": "32f7b8a5-899e-4d71-9298-a3272d0fa0f7", "val": "B" }, { "itemid": "dc05e8f2-1b0f-4d6b-8953-cecd14138d3f", "val": "B" }, { "itemid": "44c23614-603e-450e-939c-aaf3d2df801f", "val": "A" }, { "itemid": "1affa78d-700b-46a0-9572-9ec2d5a1e044", "val": "A" }, { "itemid": "21ed565a-45e8-46e7-ba6e-c3bce6345d85", "val": "B" }, { "itemid": "6f33dc79-777e-486c-abaf-a5e27d3698e3", "val": "B" }, { "itemid": "15c4a086-56a4-4345-96b0-b193c92e6005", "val": "A" }, { "itemid": "6e84e811-da83-4fb2-8961-8d81fa2e95af", "val": "B" }, { "itemid": "91d3e6da-28f1-422f-afdf-466512fcf082", "val": "B" }, { "itemid": "a8417f9f-486c-487b-99b8-71439d586a70", "val": "A" }, { "itemid": "1da1a8d7-078d-446f-9e9c-38c680d4b346", "val": "B" }, { "itemid": "ecb3ee10-30cd-4efc-a814-a36c861f8c01", "val": "A" }, { "itemid": "bbeb90a0-b05e-49a6-a779-9ee6b7136fca", "val": "B" }];
+        data.forEach(function (v, i) {
+            var index = 0;
+            if (v.val == "A") {index = 0;}
+            else if (v.val == "B") {index = 1;}
+            else if (v.val == "C") {index = 2;}
+            else if (v.val == "D") {index = 3;}
+            else if (v.val == "E") {index = 4;}
+            else if (v.val == "F") {index = 5; }
+            $("[itemid='" + v.itemid + "'] li").get(index).click();
+        });
+        $("#submitBtn").click();
+    })()
