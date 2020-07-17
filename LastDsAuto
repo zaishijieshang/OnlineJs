@@ -18,17 +18,24 @@
     console.log(JSON.stringify(items))
 })()
 
-(function () {
-        var data = [{ "itemid": "48d3fadc-a6e7-4ca5-bd32-d9d7a2dcdda0", "val": "D" }, { "itemid": "7220c9b3-a0b7-4ec0-a7f9-ad10cc44b93b", "val": "C" }, { "itemid": "daa65377-6c37-4c65-bd6b-1005b12f4e85", "val": "C" }, { "itemid": "ef7a4030-e9e6-4c70-88d6-e23cfc2d8df8", "val": "C" }, { "itemid": "922c9b32-b6b7-497c-89ab-e13c3a43ebab", "val": "A" }, { "itemid": "918a5994-975d-457b-a4dd-5476803ca271", "val": "B" }, { "itemid": "ff4ff5b4-2455-4f08-8faf-16822b999930", "val": "D" }, { "itemid": "f5c4f2fb-2740-4479-b897-a4c33ea0bc19", "val": "A" }, { "itemid": "f2c4dfde-d3d2-42ea-ba5b-8b58b11ff4e7", "val": "B" }, { "itemid": "dd771fba-8299-4c9c-b5e6-d5f8bf66e33f", "val": "D" }, { "itemid": "9f7187ee-6786-4a34-be1b-9d279306abb4", "val": "B" }, { "itemid": "bdee1db2-adef-4540-93bb-cea4666ceac7", "val": "A" }, { "itemid": "f460fc5c-ae55-43d8-9d00-35421bb29097", "val": "C" }, { "itemid": "29b7c2d8-3371-47b4-9cc0-fc44ea6dd3f9", "val": "B" }, { "itemid": "e7699699-8702-4df8-9a08-67e350b87639", "val": "D" }, { "itemid": "6f1ddfee-dcf3-4383-a1a9-4b27a511883d", "val": "B" }, { "itemid": "3b4d1238-d9fb-4783-a109-575528133d1f", "val": "D" }, { "itemid": "da0b5024-9f22-420e-a377-439544d6fad7", "val": "D" }, { "itemid": "e84b50eb-b6d3-4084-be49-01027d685b0b", "val": "D" }, { "itemid": "cf40f3d5-38ee-422c-9934-60d5121dba06", "val": "A" }, { "itemid": "7e6de0cd-0cb2-4a35-bc2e-0ea4db565dd5", "val": "B" }, { "itemid": "ac2859ca-1a3c-4207-b061-463393e7c392", "val": "B" }, { "itemid": "e6318bdd-28fb-4131-8a5f-6346bf648992", "val": "B" }, { "itemid": "55dbb6b1-1e61-4ea7-8df3-cd77a148393f", "val": "B" }, { "itemid": "1228c523-adfc-43bd-ba8c-58455a58f375", "val": "B" }, { "itemid": "f6df47df-4e4f-48bd-b928-2931da81618b", "val": "B" }, { "itemid": "6e665f51-ffe0-4cd8-a8cc-547571925b0a", "val": "B" }, { "itemid": "32f7b8a5-899e-4d71-9298-a3272d0fa0f7", "val": "B" }, { "itemid": "dc05e8f2-1b0f-4d6b-8953-cecd14138d3f", "val": "B" }, { "itemid": "44c23614-603e-450e-939c-aaf3d2df801f", "val": "A" }, { "itemid": "1affa78d-700b-46a0-9572-9ec2d5a1e044", "val": "A" }, { "itemid": "21ed565a-45e8-46e7-ba6e-c3bce6345d85", "val": "B" }, { "itemid": "6f33dc79-777e-486c-abaf-a5e27d3698e3", "val": "B" }, { "itemid": "15c4a086-56a4-4345-96b0-b193c92e6005", "val": "A" }, { "itemid": "6e84e811-da83-4fb2-8961-8d81fa2e95af", "val": "B" }, { "itemid": "91d3e6da-28f1-422f-afdf-466512fcf082", "val": "B" }, { "itemid": "a8417f9f-486c-487b-99b8-71439d586a70", "val": "A" }, { "itemid": "1da1a8d7-078d-446f-9e9c-38c680d4b346", "val": "B" }, { "itemid": "ecb3ee10-30cd-4efc-a814-a36c861f8c01", "val": "A" }, { "itemid": "bbeb90a0-b05e-49a6-a779-9ee6b7136fca", "val": "B" }];
+    (function () {
+        var data = [{ "itemid": "3d991514-e162-425b-9743-4f29f3b85e69", "val": "C" }, { "itemid": "c7b3148c-ad41-452c-b866-928ba41fa480", "val": "D" }, { "itemid": "c418e8aa-eaf5-4f71-b998-60f75b5feb46", "val": "A" }, { "itemid": "ed2a7383-379f-42b9-89d3-4f3af016b8d6", "val": "D" }, { "itemid": "7ddc69a5-4afe-4e50-ae86-5e4492f944c3", "val": "A" }, { "itemid": "23701f70-5bcf-4246-a19e-5e3656c29114", "val": "C" }, { "itemid": "a4cf61f3-8619-4614-885f-bba2222c4bd3", "val": "A" }, { "itemid": "387c8148-a645-433b-beae-e2d08e026bb3", "val": "A" }, { "itemid": "d467c49d-b408-4dde-b5dd-f046622220f1", "val": "C" }, { "itemid": "7024cad7-5e27-42be-8d55-8e8b13a09037", "val": "D" }, { "itemid": "d76b90d0-aa18-4b41-8aa0-db3b34a44913", "val": "A" }, { "itemid": "b3af3dbb-68fe-4300-825c-58f6cbd37c23", "val": "B" }, { "itemid": "fe5d15ad-3f2f-4f12-846b-2ddef986d9f0", "val": "C" }, { "itemid": "1fbb6fb0-6984-4b8d-b2af-c20a657fa1bc", "val": "A" }, { "itemid": "ecdeb2db-d30c-4503-8068-3ecaaa93f36d", "val": "A" }, { "itemid": "46ca36e7-e73c-4060-8db5-97dc61b6e5d1", "val": "B" }, { "itemid": "eeafd2bb-e00d-46c3-bf3e-725bcd4b4477", "val": "D" }, { "itemid": "5363e8a4-6eed-41d7-870b-ca9eb1e7a976", "val": "A" }, { "itemid": "a466a77c-596c-41be-aad1-8654bcd4b85e", "val": "C" }, { "itemid": "c594b99f-6da7-4057-a643-cc52efac66ad", "val": "A" }, { "itemid": "b93f5723-448a-4326-bf11-335c70c44da3", "val": "C" }, { "itemid": "ddaa21a0-8cb4-4e41-b849-34b55c6c9f7d", "val": "D" }, { "itemid": "b74fda6a-1f79-41fd-8797-4d01b8279953", "val": "D" }, { "itemid": "c7e744fb-cb41-42ff-890e-86195853c113", "val": "D" }, { "itemid": "087b5e7d-20cb-40be-acbf-8b9d79279ff9", "val": "B" }, { "itemid": "99b71e6b-e85b-4381-975e-58ab29b3cb89", "val": "ABCDE" }, { "itemid": "025b89c2-43d9-4f7b-b6cf-36ec89ef7047", "val": "ABDE" }, { "itemid": "44e4efe3-db86-4e2d-8cd6-e4d09391c0d7", "val": "BD" }, { "itemid": "4bcca244-78d7-4433-b2cb-23c1964021a3", "val": "AB" }, { "itemid": "26d4d2af-6127-4db9-8401-5db8deeb2a29", "val": "AC" }, { "itemid": "f695c900-8327-47be-8105-d4272e86ffa0", "val": "A" }, { "itemid": "755444d7-25bf-46d6-bb50-7b9a03dde63a", "val": "A" }, { "itemid": "8cf46b39-f402-4605-9db4-66a7d9f285f1", "val": "B" }, { "itemid": "fbe6b07e-bf5e-4725-b509-372f77502882", "val": "B" }, { "itemid": "45030d16-11df-43dc-98cc-42cdfedbbd9d", "val": "B" }, { "itemid": "494c78b6-57cd-4920-bf29-0633e12e9ba9", "val": "B" }, { "itemid": "d0794b9d-0751-4b4a-b0e9-21a59c9e2c8a", "val": "A" }, { "itemid": "865b1c70-3e58-478c-8221-b08526ed9a8b", "val": "B" }, { "itemid": "fbc2c95a-80d3-432e-bd59-7f0185f1d61f", "val": "B" }, { "itemid": "97c5fc26-8253-4a95-8125-1338d08a1762", "val": "B" }];
         data.forEach(function (v, i) {
-            var index = 0;
-            if (v.val == "A") {index = 0;}
-            else if (v.val == "B") {index = 1;}
-            else if (v.val == "C") {index = 2;}
-            else if (v.val == "D") {index = 3;}
-            else if (v.val == "E") {index = 4;}
-            else if (v.val == "F") {index = 5; }
-            $("[itemid='" + v.itemid + "'] li").get(index).click();
+            for (var ii = 0; ii < v.val.length; ii++) {
+                var curVal = v.val.charAt(ii);
+                var index = 0;
+                if (curVal == "A") { index = 0; }
+                else if (curVal == "B") { index = 1; }
+                else if (curVal == "C") { index = 2; }
+                else if (curVal == "D") { index = 3; }
+                else if (curVal == "E") { index = 4; }
+                else if (curVal == "F") { index = 5; }
+                else if (curVal == "G") { index = 6; }
+                else if (curVal == "H") { index = 7; }
+                else if (curVal == "I") { index = 8; }
+                else if (curVal == "J") { index = 9; }
+                $("[itemid='" + v.itemid + "'] li").get(index).click();
+            }
         });
-        $("#submitBtn").click();
+       $("#submitBtn").click();
     })()
